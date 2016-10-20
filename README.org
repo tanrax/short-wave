@@ -1,0 +1,22 @@
+* Short Wave
+
+Send with MailGun your personalized newsletter. Available news from Hacker News and Reddit.
+
+** Install
+
+#+BEGIN_SRC bash
+pip install -r requeriments.txt
+cp envExample .env
+#+END_SRC
+
+Edit the configuration file
+
+#+BEGIN_SRC bash
+vi .env
+#+END_SRC
+
+** Run
+
+#+BEGIN_SRC bash
+python app.py send
+#+END_SRC

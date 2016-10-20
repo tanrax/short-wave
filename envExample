@@ -1,0 +1,10 @@
+[DEFAULT]
+GUNMAIL_URL = <gunmail url>
+GUNMAIL_API = <gunmail api>
+EMAIL_FROM = noreply@shortwave.email
+MAX_NEWS = 5
+EMAIL_TO = <your email>
+SUBJECT = Short Wave
+ENABLE_HACKER_NEWS= yes
+ENABLE_REDDIT = yes
+REDDIT_SUBREDDITS = gamedev, python, gifs
