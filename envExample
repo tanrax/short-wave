@@ -1,6 +1,7 @@
 [DEFAULT]
 GUNMAIL_URL = <gunmail url>
 GUNMAIL_API = <gunmail api>
+STATIC_URL = yourdomin.com
 EMAIL_FROM = noreply@shortwave.email
 MAX_NEWS = 5
 EMAIL_TO = <your email>

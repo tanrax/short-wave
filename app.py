@@ -20,6 +20,7 @@ manager = Manager(app)
 def generate_email():
     my_news = News()
     data = dict()
+    data['static_url'] =  os.environ.get('STATIC_URL')
     max_news = int(os.environ.get('MAX_NEWS'))
     if os.environ.get('ENABLE_HACKER_NEWS') == 'yes':
         data['hacker_news'] = my_news.hacker_news(max_news)['hacker_news']
