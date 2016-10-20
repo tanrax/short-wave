@@ -6,7 +6,6 @@ Send with MailGun your personalized newsletter. Available news from Hacker News 
 
 [[file:screenshots/screenshot1.jpg]]
 [[file:screenshots/screenshot2.jpg]]
-[[file:screenshots/screenshot3.jpg]]
 
 ** Install
 
