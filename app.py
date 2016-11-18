@@ -43,8 +43,8 @@ def debug():
 
 def send_simple_message(html):
     return requests.post(
-        os.environ.get('GUNMAIL_URL'),
-        auth=("api", os.environ.get('GUNMAIL_API') + '/messages'),
+        os.environ.get('GUNMAIL_URL') + '/messages',
+        auth=("api", os.environ.get('GUNMAIL_API')),
         data={"from": os.environ.get('EMAIL_FROM'),
               "to": [os.environ.get('EMAIL_TO')],
               "subject": os.environ.get('SUBJECT'),
