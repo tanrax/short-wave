@@ -37,6 +37,9 @@ def send():
     send_simple_message(generate_email())
     return 'OK'
 
+@manager.command
+def debug():
+    return generate_email()
 
 def send_simple_message(html):
     return requests.post(
